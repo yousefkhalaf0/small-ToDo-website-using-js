@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        third day in js
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <form id="myForm">
+            <input oninput="validateTitle()" required pattern="^[a-zA-Z]{6,}$" title="Type only at least 6 characters"
+                type="text" id="toDoTitle" placeholder="todo title">
+            <p id="titleError" class="t-none">Type only at least 6 characters</p>
+            <br>
+            <input oninput="validateDescription()" type="text" required pattern="^(?=.*\S).{20,}$"
+                title="Type any characters and at least 20 characters" id="toDoDescription"
+                placeholder="todo description"></textarea>
+            <p id="descriptionError" class="d-none">Type any characters and at least 20 characters</p>
+            <br>
+            <input type="submit" class="addButton" value="Add">
+            <br>
+            <input type="text" class="search" placeholder="Search ..">
+            <br>
+        </form>
+        <div id="tasksContainer"></div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
