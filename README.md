@@ -21,5 +21,6 @@ This is a simple **To-Do List App** built with **HTML5**, **CSS3**, and **JavaSc
 3. Add, edit, complete, or delete tasks as needed.  
 
 ### **Screenshots**  
-To-Do List App Screenshot: ![image](https://github.com/user-attachments/assets/744fbee9-3540-4fe0-abf3-3f2aaad7e87c) ![image](https://github.com/user-attachments/assets/bb26fb0f-e140-4a36-9986-428f4326c834)
+To-Do List App Screenshot: ![image](https://github.com/user-attachments/assets/744fbee9-3540-4fe0-abf3-3f2aaad7e87c) ![image](https://github.com/user-attachments/assets/bb26fb0f-e140-4a36-9986-428f4326c834) ![image](https://github.com/user-attachments/assets/b26bf8e4-56b1-4d12-aac8-36f9320a8638)
+
 
